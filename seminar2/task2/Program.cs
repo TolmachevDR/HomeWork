@@ -3,6 +3,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
+Console.Clear();
 Console.Write("Введите число: ");
 int anyNumber = Convert.ToInt32(Console.ReadLine());
 string anyNumberText = Convert.ToString(anyNumber);
