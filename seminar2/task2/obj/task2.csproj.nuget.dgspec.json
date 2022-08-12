@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\task2\\task2.csproj": {}
+    "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\seminar2\\task2\\task2.csproj": {}
   },
   "projects": {
-    "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\task2\\task2.csproj": {
+    "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\seminar2\\task2\\task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\task2\\task2.csproj",
+        "projectUniqueName": "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\seminar2\\task2\\task2.csproj",
         "projectName": "task2",
-        "projectPath": "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\task2\\task2.csproj",
+        "projectPath": "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\seminar2\\task2\\task2.csproj",
         "packagesPath": "C:\\Users\\The_KeFirchiK\\.nuget\\packages\\",
-        "outputPath": "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\task2\\obj\\",
+        "outputPath": "E:\\The_KeFir[4]iK\\Учёба\\Знакомство с языками программирования\\seminar2\\task2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\The_KeFirchiK\\AppData\\Roaming\\NuGet\\NuGet.Config"
