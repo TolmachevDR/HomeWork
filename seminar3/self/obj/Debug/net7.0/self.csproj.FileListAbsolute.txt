@@ -1,0 +1,5 @@
+E:\The_KeFir[4]iK\Учёба\Знакомство с языками программирования\seminar3\self\obj\Debug\net7.0\self.csproj.AssemblyReference.cache
+E:\The_KeFir[4]iK\Учёба\Знакомство с языками программирования\seminar3\self\obj\Debug\net7.0\self.GeneratedMSBuildEditorConfig.editorconfig
+E:\The_KeFir[4]iK\Учёба\Знакомство с языками программирования\seminar3\self\obj\Debug\net7.0\self.AssemblyInfoInputs.cache
+E:\The_KeFir[4]iK\Учёба\Знакомство с языками программирования\seminar3\self\obj\Debug\net7.0\self.AssemblyInfo.cs
+E:\The_KeFir[4]iK\Учёба\Знакомство с языками программирования\seminar3\self\obj\Debug\net7.0\self.csproj.CoreCompileInputs.cache

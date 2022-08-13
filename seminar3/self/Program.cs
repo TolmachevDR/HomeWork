@@ -18,4 +18,4 @@ if (plateNumber == 4)
 }
 
 int plateNumber = int.Parse(Console.ReadLine()!);
-Print.plateNumber(plateNumber);
+Console.Print.plateNumber(plateNumber);
