@@ -12,6 +12,5 @@ double result = 0;
 double dx = Math.Pow(x1-x2,2);
 double dy = Math.Pow(y1-y2,2);
 result = Math.Sqrt(dx+dy);
-return result;
 }
 Console.Write($"Расстояние между точками: + {result}");
