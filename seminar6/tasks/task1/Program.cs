@@ -3,11 +3,12 @@
 // -1, -7, 567, 89, 223-> 3
 
 Console.Clear();
-Console.Write($"Введите число М(количество чисел): ");
+Console.Write($"Введите число М (количество чисел): ");
 int m = Convert.ToInt32(Console.ReadLine());
 int[] massiveNumbers = new int[m];
 
-void InputNumbers(int m){
+void InputNumbers(int m)
+{
 for (int i = 0; i < m; i++)
   {
     Console.Write($"Введи {i+1} число: ");

@@ -2,7 +2,7 @@
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-Console.Write($"Введи количество элементов массива: ");
+Console.Write("Введи количество элементов массива: ");
 int numberElements = Convert.ToInt32(Console.ReadLine()); 
 
 int RandomNumbers(int numberElements, int min, int max)

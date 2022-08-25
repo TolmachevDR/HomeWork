@@ -38,7 +38,7 @@ void OutputResponse(double[,] coeff)
   else 
   {
     Decision(coeff);
-    Console.Write($"\nТочка пересечения прямых: ({crossPoint[0]}, {crossPoint[1]})");
+    Console.Write($"Точка пересечения прямых: ({crossPoint[0]}, {crossPoint[1]})");
   }
 }
 

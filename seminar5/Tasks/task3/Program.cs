@@ -25,4 +25,5 @@ double minNumber = arrayRealNumbers[0];
   }
 
   double decision = maxNumber - minNumber;
-  Console.WriteLine($"\nразница между между максимальным ({maxNumber}) и минимальным({minNumber}) элементами: {decision}");
+  Console.WriteLine();
+  Console.WriteLine($"Разница между между максимальным = ({maxNumber}) и минимальным = ({minNumber}) элементами: {decision}");
