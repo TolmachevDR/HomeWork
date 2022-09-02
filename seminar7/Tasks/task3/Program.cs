@@ -1,45 +1,46 @@
-﻿// Задача 52: Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+﻿//Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
+//Например, задан массив:
+//1 4 7 2
+//5 9 2 3
+//8 4 2 4
+//Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
-Console.Write("\nMассив возьмем из предыдущей задачи (№ 47), преобразовав double в int32.\n");
-
-int[,] arrayWhole = new int[m, n];
-arrayWhole = TransformationArrayWhole(array);
-
-WriteArrayInt(arrayWhole);
-
-Console.Write($"\nCреднее арифметическое:\n");
-for (int i = 0; i < n; i++)
+int rows = 2;
+int columns = 3;
+int [,] numbers = new int [rows,columns];
+FillArray (numbers);
+PrintArray (numbers);
+double [] sum = new double [columns] ;
+for (int i = 0; i < numbers.GetLength (1); i ++)
 {
-  double arithmeticMean = 0;
-  for (int j = 0; j < m; j++)
-  {
-    arithmeticMean += arrayWhole[j, i];
-  }
-  arithmeticMean = Math.Round(arithmeticMean / m, 1);
-  Console.WriteLine($"столбца № {i+1} {arithmeticMean}");
-}
-
-int[,] TransformationArrayWhole (double[,] array)
-{
-  int[,] arrayWhole = new int[array.GetLength(0), array.GetLength(1)];
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
-    {
-      arrayWhole[i, j] = Convert.ToInt32(array[i, j]);
+    for (int j = 0; j < numbers.GetLength(0); j ++)
+    { 
+        sum [i] = sum [i] + numbers [j,i];
     }
-  }
-  return arrayWhole;
+    double average = sum [i] / rows;
+    double result = Math.Round (average, 2);
+    Console.WriteLine (result);
 }
 
-void WriteArrayInt (int[,] arrayWhole)
+void FillArray (int [,] array)
 {
-for (int i = 0; i < m; i++)
-  {
-      for (int j = 0; j < n; j++)
-      {
-        Console.Write(arrayWhole[i, j] + " ");
-      }
-      Console.WriteLine();
-  }
+    for (int i =0; i < array.GetLength (0); i ++)
+    {
+        for (int j = 0; j < array.GetLength(1); j ++ )
+        {
+            array [i,j] = new Random().Next (0,9);
+        }
+    }
+}
+void PrintArray (int [,] array)
+{
+    for (int i =0; i < array.GetLength (0); i ++)
+    {
+        for (int j = 0; j < array.GetLength (1); j ++ )
+        {
+            Console.Write (array [i,j] + " ");
+        }
+        Console.WriteLine();
+    }
+      Console.WriteLine();  
 }
